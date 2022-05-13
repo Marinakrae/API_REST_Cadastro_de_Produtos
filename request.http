@@ -1,0 +1,31 @@
+//Para tester é necessário inserir o id manualmente nas funções de get pelo id, put e delete
+POST http://localhost:1789/products
+content-type: application/json
+
+{
+    "name": "Caneta lilás",
+    "price": 3
+}
+
+###
+
+GET http://localhost:1789/products
+
+###
+
+//busca pelo id
+GET http://localhost:1789/products/insira_o_id
+
+###
+
+PUT http://localhost:1789/products/insira_o_id
+content-type: application/json
+
+{
+    "name": "Caderno de cachorrinho",
+    "price": 12.0
+}
+
+###
+
+DELETE http://localhost:1789/products/insira_o_id
