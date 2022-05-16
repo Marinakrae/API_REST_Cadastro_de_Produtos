@@ -4,7 +4,7 @@ API simples de cadastro de produtos desenvolvida com Node e Express.
 Guarda um array de produtos em um arquivo.
 
 Possui as rotas:
-- Cadastrar de produto
+- Cadastrar produto
 - Buscar produto
 - Buscar produto por id
 - Deletar produto
